@@ -1,0 +1,24 @@
+  body {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    color: #333333;
+}
+
+
+  h1 {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    color: #ffffff;
+}
+
+  h2 {
+    font-weight: bold ;
+    font-size: 21px;
+    line-height: 26px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    color: #000000;
+}
