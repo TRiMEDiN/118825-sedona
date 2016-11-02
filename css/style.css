@@ -4,7 +4,46 @@
     line-height: 26px;
     font-family: "PT Sans", "Arial", sans-serif;
     color: #333333;
+    width: 1200px;
+    padding: 0 40px;
+    margin: 0 auto;
+
+    background-color: #f1f1f1;
 }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-header {
+    outline: 1px solid #ff0000;
+}
+
+.main-navigation {
+    min-height: 70px;
+}
+
+.main-left {
+    width: 459px;
+    padding-left: 72px;
+    float:left;
+}
+
+.main-logo {
+    width: 138px;
+    float: right;
+}
+
+.main-right {
+    width: 459px;
+    padding-right: 72px;
+    float:left;
+}
+
+
+
 
 
   h1 {
