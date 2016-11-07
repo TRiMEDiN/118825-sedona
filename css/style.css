@@ -4,49 +4,14 @@
     line-height: 26px;
     font-family: "PT Sans", "Arial", sans-serif;
     color: #333333;
-    width: 1200px;
-    padding: 0 40px;
+    min-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
-
+    padding: 0 40px;
     background-color: #f1f1f1;
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.main-header {
-    outline: 1px solid #ff0000;
-}
-
-.main-navigation {
-    min-height: 70px;
-}
-
-.main-left {
-    width: 459px;
-    padding-left: 72px;
-    float:left;
-}
-
-.main-logo {
-    width: 138px;
-    float: right;
-}
-
-.main-right {
-    width: 459px;
-    padding-right: 72px;
-    float:left;
-}
-
-
-
-
-
-  h1 {
+h1 {
     font-weight: bold;
     font-size: 21px;
     line-height: 26px;
@@ -61,3 +26,133 @@
     font-family: "PT Sans", "Arial", sans-serif;
     color: #000000;
 }
+
+  header,
+  main,
+  footer {
+    outline: 2px solid #ff0000;
+  }
+
+
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+  .main-header {
+
+}
+
+  .main-navigation {
+
+}
+
+  .main-left {
+    width: 459px;
+    padding-left: 72px;
+    float:left;
+}
+
+  .main-logo {
+    width: 138px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+  .main-right {
+    width: 459px;
+    padding-right: 72px;
+    float:left;
+}
+
+  .container {
+
+}
+
+  .main-welcome {
+    outline: 1px solid #015f0a;
+    text-align: center;
+
+}
+
+  .description {
+    outline: 1px solid #015f0a;
+    text-align: center;
+}
+
+  .reasons {
+    outline: 1px solid #015f0a;
+    min-height: 1100px;
+}
+
+
+  .reasons-row-top {
+
+}
+
+  .reason.numbered-reason {
+    width: 400px;
+    background-color: #81b3d2;
+    float:left;
+}
+
+  .reason .reason-image {
+
+    float:right;
+}
+
+  .reason-housing,
+  .reason-food {
+    width: 400px;
+    float: left;
+}
+
+  .reason-gifts {
+    width: 400px;
+    float: right;;
+}
+
+  .reason.numbered-reason:nth-child(2) {
+    width: 400px;
+    float:right;
+    background-color: #81b3d2;
+}
+
+  .reason.reason-image:nth-child(2) {
+
+    float: left;
+}
+
+  .reasons-row.bot {
+    width: 400px;
+    float: left;;
+
+
+}
+
+  .offer {
+    outline: 1px solid #015f0a;
+    text-align: center;
+  }
+
+  .footer-hashtag {
+    width: 240px;
+    padding-left: 72px;
+    padding-right: 72px;
+    float:left;
+  }
+
+  .footer-social {
+    width: 150px;
+    float:left;
+  }
+
+  .footer-copyright {
+    width: 240px;
+    padding-left: 72px;
+    padding-right: 72px;
+    float:right;
+  }
